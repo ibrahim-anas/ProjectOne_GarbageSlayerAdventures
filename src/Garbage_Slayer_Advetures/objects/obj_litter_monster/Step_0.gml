@@ -1,19 +1,18 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if instance_exists(obj_player) {
-	
-	if (distance_to_object(obj_player) < attack_range) {
-		direction = point_direction(x, y, obj_player.x, obj_player.y)
-	}
-	
-	
-	
-} else {
-	
-	if (instance_place(x+hsp, y+hsp, obj_wall)) {
-	    direction = dir[irandom(3)]
-	}
-}
+// Creating litter
+// GameMaker 1 5-B (Reference)
+if (check1 == true and check2 == true) and instance_exists(obj_player) {
+	// Spawning litter
+	instance_create_layer(x, y, "Instances", obj_litter)
+	check2 = false
 
-alarm[0] = turn_rate
+// Cooldown
+} else if check1 == true and check2 == false {
+	check1 = false
+	check2 = true
+	
+	time = irandom_range(12, 16)
+	alarm[0] = room_speed * time
+}
