@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_broom",
   "spriteId": {
-    "name": "spr_temp_broom",
-    "path": "sprites/spr_temp_broom/spr_temp_broom.yy",
+    "name": "spr_broom",
+    "path": "sprites/spr_broom/spr_broom.yy",
   },
   "solid": false,
   "visible": true,

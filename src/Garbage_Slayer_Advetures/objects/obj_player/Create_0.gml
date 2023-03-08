@@ -10,9 +10,13 @@ broom = true
 broom_cooldown = false
 
 // Player health
-health = 100
+health = 200
 
-// Variables for player immunity
+// Player Immunity variables
 immunity = false
 draw_immunity = false
 immunity_duration = false
+
+// Changing sprite size
+image_xscale = 0.7
+image_yscale = 0.7

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-speed = hsp
+speed = sp
 dir = [0, 90, 180, 270]
 
 // Timeline for increasing movement speed

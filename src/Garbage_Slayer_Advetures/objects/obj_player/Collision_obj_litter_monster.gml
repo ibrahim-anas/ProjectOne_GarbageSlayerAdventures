@@ -3,7 +3,7 @@
 
 // Damage
 if immunity == false {
-	health = health - 50
+	health = health - 40
 }
 
 // Brief immunity after damage

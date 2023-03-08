@@ -3,7 +3,7 @@
 
 // Creating litter
 // GameMaker 1 5-B (Reference)
-if (check1 == true and check2 == true) and instance_exists(obj_player) {
+if (check1 == true and check2 == true) and (instance_exists(obj_player)) and (instance_number(obj_litter) < 20) {
 	// Spawning litter
 	instance_create_layer(x, y, "Instances", obj_litter)
 	check2 = false

@@ -27,7 +27,6 @@ path_position = random(1)
 
 // Variable Set ups
 path_speed = hsp
-dir = [0, 90, 180, 270]
 check1 = true
 check2 = false
 

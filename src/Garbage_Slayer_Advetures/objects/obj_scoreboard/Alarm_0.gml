@@ -3,6 +3,6 @@
 
 // Player damage
 if instance_exists(obj_player) {
-	health = health - 10
+	health = health - 5
 	litter_dmg_cooldown = false
 }

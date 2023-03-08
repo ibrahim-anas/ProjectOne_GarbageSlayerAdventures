@@ -2,25 +2,26 @@
 // You can write your code in this editor
 
 // Player movement
-if (keyboard_check(ord("W"))) {
+// Gamemaker Workshop 2, 1-A (Reference)
+if (keyboard_check(ord("W")) and !instance_place(x, y - move_speed, obj_block)) {
     y -= move_speed
 }
 
-if (keyboard_check(ord("S"))) {
+if (keyboard_check(ord("S")) and !instance_place(x, y + move_speed, obj_block)) {
     y += move_speed
 }
 
-if (keyboard_check(ord("A"))) {
+if (keyboard_check(ord("A")) and !instance_place(x - move_speed, y, obj_block)) {
     x -= move_speed
 }
 
-if (keyboard_check(ord("D"))) {
+if (keyboard_check(ord("D")) and !instance_place(x + move_speed, y, obj_block)) {
     x += move_speed
 }
 
 
 // Shooting watergun
-// GameMaker 1 5-B
+// GameMaker Workshop 1, 5-B (Reference)
 if watergun == true and canShoot == true and mouse_check_button(mb_left) {
 	// Fire
 	instance_create_layer(x, y, "Instances", obj_water_bullet)
