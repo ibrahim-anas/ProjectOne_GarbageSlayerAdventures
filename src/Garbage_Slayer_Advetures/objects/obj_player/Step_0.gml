@@ -1,7 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-
 if (keyboard_check(ord("W"))) {
     y -= move_speed
 }
@@ -17,7 +13,6 @@ if (keyboard_check(ord("A"))) {
 if (keyboard_check(ord("D"))) {
     x += move_speed
 }
-
 
 // Shooting watergun
 // GameMaker 1 5-B
@@ -46,5 +41,7 @@ if !instance_exists(obj_broom) and broom_cooldown == true {
 	alarm[1] = 55
 }
 
-
-
+// Display lose-screen when health reaches 0
+if health <= 0 {
+	room_goto(rm_lose)
+}
