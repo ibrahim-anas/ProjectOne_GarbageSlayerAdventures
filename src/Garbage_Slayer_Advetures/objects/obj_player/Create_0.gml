@@ -2,6 +2,8 @@
 // You can write your code in this editor
 
 // Watergun variables
+watergun = true
+firerate = room_speed
 canShoot = true
 
 // Broom variables

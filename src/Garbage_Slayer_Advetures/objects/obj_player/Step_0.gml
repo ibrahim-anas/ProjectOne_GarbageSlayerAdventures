@@ -71,6 +71,14 @@ image_speed = 0
 			image_xscale = image_xscale * -1
 	}
 
+//cheat code for health to 100%
+if (keyboard_check(ord("H")) and !instance_place(x + move_speed, y, obj_block)) {
+    health = 200
+}
+//cheat code to increase the player speed
+if (keyboard_check(ord("1")) and !instance_place(x + move_speed, y, obj_block)) {
+    obj_player.move_speed += 1;
+}
 
 // Shooting watergun
 // GameMaker Workshop 1, 5-B (Reference)
@@ -82,10 +90,13 @@ if canShoot == true and !instance_exists(obj_broom) and mouse_check_button(mb_le
 	canShoot = false
 	
 	// Firerate
-	alarm[0] = room_speed	
+	alarm[0] = firerate	
+	
+
 }
-
-
+if (keyboard_check(ord("F"))) {
+		firerate = 10
+}
 // Using broom
 if broom == true and !instance_exists(obj_water_gun) and mouse_check_button_pressed(mb_right) {
 	// Swing
