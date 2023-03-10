@@ -16,7 +16,7 @@ if instance_exists(obj_player) {
 
 // Scoring
 // Gamemaker Workshop 1, 5-C (Reference)
-draw_text(16, 64, "Score: " + string(points))
+draw_text(16, 64, "Score: " + string(score))
 
 // Litter counter
 litter_number = instance_number(obj_litter)

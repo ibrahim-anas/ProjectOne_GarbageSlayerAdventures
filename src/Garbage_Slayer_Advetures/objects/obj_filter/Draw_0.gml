@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // Shader: Changing color when there are too many obj_litter instances
-if instance_number(obj_litter) > obj_scoreboard.litter_quantity {
+if instance_number(obj_litter) > obj_hud.litter_quantity {
 	// Getting increments for alpha_val in order to do a fade filter
 	if alpha_val <= 0.3 {
 		alpha_val += 0.01

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_controller_credits",
+  "name": "obj_win",
   "spriteId": null,
   "solid": false,
   "visible": true,
