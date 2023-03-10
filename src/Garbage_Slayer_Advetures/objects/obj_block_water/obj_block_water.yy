@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_block_water",
   "spriteId": {
-    "name": "spr_block",
-    "path": "sprites/spr_block/spr_block.yy",
+    "name": "spr_block_water",
+    "path": "sprites/spr_block_water/spr_block_water.yy",
   },
   "solid": false,
   "visible": false,

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_litter",
   "spriteId": {
-    "name": "spr_temp_litter",
-    "path": "sprites/spr_temp_litter/spr_temp_litter.yy",
+    "name": "spr_litter_pile",
+    "path": "sprites/spr_litter_pile/spr_litter_pile.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,7 +24,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

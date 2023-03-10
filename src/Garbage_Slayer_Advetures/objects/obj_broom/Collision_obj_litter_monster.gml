@@ -3,4 +3,5 @@
 
 // Kill Litter Monster
 instance_destroy(other)
+audio_play_sound(snd_monster_death, 1, false)
 obj_scoreboard.points += 20

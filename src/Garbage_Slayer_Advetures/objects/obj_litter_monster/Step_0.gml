@@ -13,6 +13,19 @@ if (check1 == true and check2 == true) and (instance_exists(obj_player)) and (in
 	check1 = false
 	check2 = true
 	
-	time = irandom_range(12, 16)
+	time = irandom_range(10, 14)
 	alarm[0] = room_speed * time
 }
+
+// Litter Monster Turning
+	// Turning Left
+	if (direction >= 90 and direction < 270) and image_xscale < 0 {
+		image_xscale = image_xscale * -1
+	
+	// Turning Right
+	// The OR statement is here because there is a glitch with Gamemaker's "direction" variable
+	// It cannot translate negative degrees to positive degrees without causing issues
+	} else if ((direction >= 270 and direction < 450) 
+	or (direction >= -90 and direction < 90)) and image_xscale >= 0 {
+		image_xscale = image_xscale * -1
+	}

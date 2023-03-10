@@ -2,7 +2,6 @@
 // You can write your code in this editor
 
 // Watergun variables
-watergun = true
 canShoot = true
 
 // Broom variables
@@ -18,5 +17,5 @@ draw_immunity = false
 immunity_duration = false
 
 // Changing sprite size
-image_xscale = 0.7
-image_yscale = 0.7
+image_xscale = 0.55
+image_yscale = 0.55

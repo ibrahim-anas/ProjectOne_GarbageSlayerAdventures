@@ -3,3 +3,6 @@
 
 // Watergun firerate
 canShoot = true
+
+// Removing watergun
+instance_destroy(obj_water_gun)
