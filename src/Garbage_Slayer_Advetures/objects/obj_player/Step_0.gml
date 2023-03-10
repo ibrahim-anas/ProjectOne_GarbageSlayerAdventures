@@ -19,6 +19,14 @@ if (keyboard_check(ord("D")) and !instance_place(x + move_speed, y, obj_block)) 
     x += move_speed
 }
 
+//cheat code for health to 100%
+if (keyboard_check(ord("H")) and !instance_place(x + move_speed, y, obj_block)) {
+    health = 200
+}
+//cheat code to increase the player speed
+if (keyboard_check(ord("1")) and !instance_place(x + move_speed, y, obj_block)) {
+    obj_player.move_speed += 1;
+}
 
 // Shooting watergun
 // GameMaker Workshop 1, 5-B (Reference)
@@ -28,10 +36,13 @@ if watergun == true and canShoot == true and mouse_check_button(mb_left) {
 	canShoot = false
 	
 	// Firerate
-	alarm[0] = room_speed	
+	alarm[0] = firerate	
+	
+
 }
-
-
+if (keyboard_check(ord("F"))) {
+		firerate = 10
+}
 // Using broom
 if broom == true and mouse_check_button_pressed(mb_right) {
 	// Swing
@@ -52,6 +63,8 @@ if !instance_exists(obj_broom) and broom_cooldown == true {
 // Player death
 if health <= 0 {
 	instance_destroy()
+	game_restart();
+	points = 0;
 }
 
 

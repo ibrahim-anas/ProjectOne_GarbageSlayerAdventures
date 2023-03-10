@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+/// @description Insert description here
+// You can write your code in this editor
 
 
 // Draw background for hud
@@ -21,4 +23,5 @@ draw_text(16, 64, "Score: " + string(points))
 // Timer in seconds
 curr_second = int64(get_timer()/1000000)
 draw_text(16, 96, "Time: " + string(curr_second))
+
 

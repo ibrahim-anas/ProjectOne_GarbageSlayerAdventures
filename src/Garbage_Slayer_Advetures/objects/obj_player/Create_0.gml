@@ -3,6 +3,7 @@
 
 // Watergun variables
 watergun = true
+firerate = room_speed
 canShoot = true
 
 // Broom variables
