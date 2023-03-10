@@ -1,3 +1,3 @@
-if keyboard_check_pressed(ord("R")) {
-	room_goto(rm_menu)
+if keyboard_check_pressed(ord("M")) {
+	room_goto(rm_highscore)
 }
