@@ -5,4 +5,4 @@
 points = 0
 
 litter_dmg_cooldown = false
-litter_quantity = 11
+litter_quantity = 10

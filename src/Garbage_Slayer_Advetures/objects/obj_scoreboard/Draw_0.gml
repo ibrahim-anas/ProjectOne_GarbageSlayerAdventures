@@ -18,7 +18,7 @@ if instance_exists(obj_player) {
 // Gamemaker Workshop 1, 5-C (Reference)
 draw_text(16, 64, "Score: " + string(points))
 
-// Timer in seconds
-curr_second = int64(get_timer()/1000000)
-draw_text(16, 96, "Time: " + string(curr_second))
+// Litter counter
+litter_number = instance_number(obj_litter)
+draw_text(16, 96, "# of litter: " + string(litter_number))
 

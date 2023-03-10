@@ -4,6 +4,7 @@
 // Damage
 if immunity == false {
 	health = health - 40
+	audio_play_sound(snd_player_hurt, 1, false)
 }
 
 // Brief immunity after damage
