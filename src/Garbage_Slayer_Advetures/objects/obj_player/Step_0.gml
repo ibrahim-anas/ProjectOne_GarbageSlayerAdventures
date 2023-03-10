@@ -19,7 +19,6 @@ if (keyboard_check(ord("D")) and !instance_place(x + move_speed, y, obj_block)) 
     x += move_speed
 }
 
-
 // Shooting watergun
 // GameMaker Workshop 1, 5-B (Reference)
 if watergun == true and canShoot == true and mouse_check_button(mb_left) {
@@ -59,3 +58,8 @@ if health <= 0 {
 // Gamemaker Workshop 1, 1-B (Reference)
 x = clamp(x, sprite_width/2, room_width-sprite_width/2) 
 y = clamp(y, sprite_height/2, room_height-sprite_height/2) 
+
+// Display lose-screen when health reaches 0
+if health <= 0 {
+	room_goto(rm_lose)
+}
