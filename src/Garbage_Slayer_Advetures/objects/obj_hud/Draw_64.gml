@@ -26,4 +26,3 @@ draw_text(18, 76, "Score: " + string(score))
 // Litter counter
 litter_number = instance_number(obj_litter)
 draw_text(18, 108, "# of litter: " + string(litter_number))
-

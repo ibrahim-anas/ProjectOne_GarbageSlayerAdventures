@@ -83,7 +83,7 @@ if canShoot == true and !instance_exists(obj_broom) and mouse_check_button(mb_le
 	canShoot = false
 	
 	// Firerate
-	alarm[0] = room_speed	
+	alarm[0] = firerate
 }
 
 

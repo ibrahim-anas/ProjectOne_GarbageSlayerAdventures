@@ -6,7 +6,7 @@
   "volume": 1.0,
   "parentRoom": null,
   "views": [
-    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":1000,"hview":600,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":220,"vborder":220,"hspeed":-1,"vspeed":-1,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -21,7 +21,7 @@
     {"resourceType":"GMRPathLayer","resourceVersion":"1.0","name":"Path_1","pathId":{"name":"Path1","path":"paths/Path1/Path1.yy",},"colour":4278190335,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Filter","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_54FC5320","properties":[],"isDnd":false,"objectId":{"name":"obj_filter","path":"objects/obj_filter/obj_filter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":61.0,"scaleY":35.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":544.0,},
-      ],"visible":false,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+      ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Signs_Lights","tilesetId":{"name":"ts_city","path":"tilesets/ts_city/ts_city.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":120,"SerialiseHeight":68,"TileCompressedData":[
 -49,-2147483648,1,1691,-8,-2147483648,-2,914,-21,-2147483648,1,1691,-8,-2147483648,2,268437147,268437146,-45,-2147483648,2,1690,1691,-30,-2147483648,1,980,-9,-2147483648,1,914,-118,-2147483648,2,912,978,-437,-2147483648,2,1690,1691,-8,-2147483648,2,268437147,268437146,-380,-2147483648,1,1691,-168,-2147483648,3,1055,1056,1057,-117,-2147483648,3,1119,1120,1121,-118,-2147483648,1,1184,-167,-2147483648,2,268437147,268437146,-125,-2147483648,1,2072,-23,-2147483648,2,268437147,268437146,-225,-2147483648,1,2072,-230,-2147483648,1,2072,-131,-2147483648,1,1501,-9,-2147483648,2,268436955,268436954,-108,-2147483648,1,1369,-9,-2147483648,1,1563,-78,-2147483648,2,1690,1691,-448,-2147483648,1,1884,-269,-2147483648,2,1690,1691,-343,-2147483648,
 1,2072,-165,-2147483648,2,1498,1499,-9,-2147483648,1,1503,-7,-2147483648,1,1688,-81,-2147483648,3,1047,1048,1049,-17,-2147483648,1,1563,-327,-2147483648,2,1690,1691,-8,-2147483648,2,268437147,268437146,-67,-2147483648,1,1501,-10,-2147483648,1,1496,-265,-2147483648,1,2072,-34,-2147483648,1,1049,-119,-2147483648,1,1113,-88,-2147483648,1,1501,-9,-2147483648,2,268436955,268436954,-118,-2147483648,1,268437019,-766,-2147483648,2,1688,1371,-31,-2147483648,1,1503,-520,-2147483648,1,1503,-323,-2147483648,1,2072,-24,-2147483648,2,1690,1691,-8,-2147483648,2,268437147,268437146,-139,-2147483648,1,2072,-228,-2147483648,1,2072,-78,-2147483648,1,2072,-380,-2147483648,2,1690,1691,-8,-2147483648,2,268437147,268437146,-246,-2147483648,1,
@@ -241,8 +241,8 @@
   },
   "viewSettings": {
     "inheritViewSettings": false,
-    "enableViews": false,
-    "clearViewBackground": false,
+    "enableViews": true,
+    "clearViewBackground": true,
     "clearDisplayBuffer": true,
   },
   "physicsSettings": {

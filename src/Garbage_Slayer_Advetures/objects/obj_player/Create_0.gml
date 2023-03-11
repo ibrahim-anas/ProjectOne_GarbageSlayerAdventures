@@ -19,3 +19,5 @@ immunity_duration = false
 // Changing sprite size
 image_xscale = 0.55
 image_yscale = 0.55
+
+firerate = room_speed
