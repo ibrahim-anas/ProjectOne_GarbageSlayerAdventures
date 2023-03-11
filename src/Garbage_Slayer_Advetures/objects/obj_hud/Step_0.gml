@@ -6,9 +6,3 @@ if instance_number(obj_litter) > litter_quantity and litter_dmg_cooldown == fals
 	litter_dmg_cooldown = true
 	alarm[0] = room_speed * 2
 }
-
-// Code for the green filter is in obj_filter
-if (keyboard_check(ord("Z"))) {
-    //go to win screen
-}
-
