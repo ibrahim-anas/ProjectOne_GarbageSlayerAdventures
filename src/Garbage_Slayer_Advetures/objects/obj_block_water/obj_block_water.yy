@@ -6,7 +6,7 @@
     "name": "spr_block_water",
     "path": "sprites/spr_block_water/spr_block_water.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": false,
   "managed": true,
   "spriteMaskId": null,

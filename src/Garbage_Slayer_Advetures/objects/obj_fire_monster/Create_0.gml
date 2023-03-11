@@ -4,7 +4,7 @@
 randomise()
 
 // Variable Set-ups
-speed = 1.5
+speed = 1.7
 direction = random(360)
 
 // Timeline for increasing movement speed
