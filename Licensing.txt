@@ -1,0 +1,61 @@
+﻿Sprites
+* spr_fire_monster
+“Flame Creature” by takeshi licensed CC0: 
+https://opengameart.org/content/flame-creature
+
+* spr_smoke
+Smoke-1 by @nyk_nck, available for commercial projects: 
+https://nyknck.itch.io/fx062
+
+* spr_litter_monster, spr_litter_monster_death, spr_litter_pile
+“Monster Pack I” by Penusbmic: 
+https://penusbmic.itch.io/monster-pack-i 
+
+* spr_broom
+“Broom” by OCAL licensed CC0: 
+http://www.clker.com/clipart-10784.html
+
+* spr_player
+“Free CC0 Modular Animated Vector Characters 2D” by RGS Dev licensed CC0: 
+https://rgsdev.itch.io/free-cc0-modular-animated-vector-characters-2d
+
+
+Tileset and Background
+* spr_landscape, spr_background
+“City Pack - Top Down - Pixel Art” by @nyk_nck: 
+https://nyknck.itch.io/citypackpixelart
+
+* spr_menu_background
+“Department Road Background Banner Dark Smoke” by 千图网: 
+https://pngtree.com/freebackground/department-road-background-banner-dark-smoke_364357.html
+
+* spr_play_button, spr_credits_button, spr_instructions_button
+“Dark colors design for complete set of level button game pop-up, icon, window and elements”, by @jcomp: 
+https://www.freepik.com/free-vector/dark-colors-design-complete-set-level-button-game-pop-up-icon-window-elements_13744675.htm
+
+
+Music and SFX
+* snd_bgm
+“High Energy BGM” by syncopika licensed CC-BY 3.0: 
+https://opengameart.org/content/high-energy-bgm
+
+* snd_fire_extinguish
+“Fire Being Put Out” by ThomasMiller licensed CC BY-NC 4.0: 
+https://freesound.org/people/ThomasMillar/sounds/654839/
+
+* snd_sweep_trash
+“Broom 2.mp3” by Hope-Sounds licensed CC0: 
+https://freesound.org/people/Hope-Sounds/sounds/500022/ 
+
+* snd_monster_death
+“Monster Sound Effect Pack” by Ogrebane licensed CC0: 
+https://opengameart.org/content/monster-sound-effects-pack
+
+* snd_player_hurt
+“11 male human pain/death sounds” by Michel Baradari licensed CC-BY 3.0: 
+https://opengameart.org/content/11-male-human-paindeath-sounds 
+
+
+
+
+NOTE: If an asset is not listed here, then it was created by us.
